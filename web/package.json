@@ -15,7 +15,7 @@
     "@fullcalendar/timegrid": "^4.4.0",
     "@fullcalendar/vue": "^4.4.0",
     "bootstrap": "^4.4.1",
-    "core-js": "^3.6.4",
+    "core-js": "^3.22.1",
     "firebase": "^7.14.0",
     "firebase-auth": "^0.1.2",
     "jquery": "^3.4.1",
