@@ -1,0 +1,20 @@
+apiVersion: v1
+metadata:
+  name: Service A
+  description: This is the user service
+annotations:
+  slo:
+    datadog.com/slo-id:
+      - objadf23234
+      - 2h78hggu888
+    runbooks:
+      - ~/.runbooks
+      - github.com/moovit/sre/runbooks/general
+    oncall:
+      - pagerduty.com/integration-key: a585k
+spec: 
+  type: service
+  owner: Team 1
+  providesAPI:
+    - ~/openapi.yaml
+    - ~/grpc.proto
