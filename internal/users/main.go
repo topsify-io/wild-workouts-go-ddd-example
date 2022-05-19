@@ -7,5 +7,5 @@ import "fmt"
 // @spec.owner    Team 1
 
 func main(){
-  fmt.Println("Hey I am a service, I need to be tracked, gettign started")
+  fmt.Println("Hey I am a service, I need to be tracked, getting started")
 }
