@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@babel/compat-data": "^7.9.0",
@@ -17,18 +19,19 @@
     "@fullcalendar/vue": "^4.4.0",
     "bootstrap": "^4.4.1",
     "core-js": "^3.22.6",
-    "firebase": "^7.14.0",
+    "firebase": "^8.0.1",
     "firebase-auth": "^0.1.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jsonwebtoken": "^8.5.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.2",
     "popper.js": "^1.16.1",
     "sass-loader": "^8.0.2",
     "superagent": "^5.2.2",
     "vue": "^2.6.11",
     "vue-router": "^3.1.6",
     "vue-toast-notification": "^0.2.0",
-    "vuejs-dialog": "^1.4.1"
+    "vuejs-dialog": "^1.4.1",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",
@@ -56,5 +59,6 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "snyk": true
 }
